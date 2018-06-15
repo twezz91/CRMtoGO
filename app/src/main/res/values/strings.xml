@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CRMtoGO</string>
+    <string-array name="suchListe">
+        <item>Bankname</item>
+        <item>PLZ</item>
+        <item>RZBK</item>
+    </string-array>
+</resources>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "168546869273",
+    "firebase_url": "https://crmtogo-6ff06.firebaseio.com",
+    "project_id": "crmtogo-6ff06",
+    "storage_bucket": "crmtogo-6ff06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168546869273:android:24dba8fbeca1bb02",
+        "android_client_info": {
+          "package_name": "de.crmtogo.deku.crmtogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168546869273-tms59g7ophduv627m8qunbvk2491rnj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.crmtogo.deku.crmtogo",
+            "certificate_hash": "ab7925c5ca6738bb2ce30daea50b71ecf269bc4f"
+          }
+        },
+        {
+          "client_id": "168546869273-v6bfehnea1s5teen22n3b6lpvpv1jit8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "168546869273-v6bfehnea1s5teen22n3b6lpvpv1jit8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCda-w19D4ZoxDWNc4E9uW092RFO_3U3qw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168546869273-v6bfehnea1s5teen22n3b6lpvpv1jit8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
