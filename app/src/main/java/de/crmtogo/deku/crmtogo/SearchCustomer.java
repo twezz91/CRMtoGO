@@ -7,7 +7,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 public class SearchCustomer extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
+
+    FirebaseFirestore customerSearch = FirebaseFirestore.getInstance();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,10 +28,14 @@ public class SearchCustomer extends AppCompatActivity implements AdapterView.OnI
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long l) {
         String text = parent.getItemAtPosition(position).toString();
+        String was = parent.getSelectedItem().toString();
+        System.out.println(was);
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
     }
+
+
 }

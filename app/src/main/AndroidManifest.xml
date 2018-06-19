@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".SearchCustomer" />
         <activity android:name=".createCustomer" />
-        <activity android:name=".consultantEvents"></activity>
+        <activity android:name=".consultantEvents" />
+        <activity
+            android:name=".showCustomer"
+            android:label="@string/title_activity_show_customer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

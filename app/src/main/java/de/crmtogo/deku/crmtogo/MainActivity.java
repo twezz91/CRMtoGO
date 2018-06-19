@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 break;
 
             case R.id.consultantEventsButton:
-                Intent intent3 = new Intent (this, consultantEvents.class);
+                Intent intent3 = new Intent (this, showCustomer.class);
                 startActivity(intent3);
                 break;
 
